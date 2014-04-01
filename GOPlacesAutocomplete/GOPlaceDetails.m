@@ -91,7 +91,7 @@ static NSString *GOPlaceDetailsDefaultAPIKey = @"";
 }
 
 #pragma mark -
-#pragma mark GOTimeZone
+#pragma mark GOPlaceDetails
 
 - (instancetype)init {
     if ((self = [super init])) {
