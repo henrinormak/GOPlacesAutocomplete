@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E143CC718EAF82400ECBC76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E143CC618EAF82400ECBC76 /* Foundation.framework */; };
+		8E143CC918EAF82400ECBC76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E143CC818EAF82400ECBC76 /* CoreGraphics.framework */; };
+		8E143CCB18EAF82400ECBC76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E143CCA18EAF82400ECBC76 /* UIKit.framework */; };
+		8E143CD118EAF82400ECBC76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E143CCF18EAF82400ECBC76 /* InfoPlist.strings */; };
+		8E143CD318EAF82400ECBC76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E143CD218EAF82400ECBC76 /* main.m */; };
+		8E143CD718EAF82400ECBC76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E143CD618EAF82400ECBC76 /* AppDelegate.m */; };
+		8E143CFB18EAF87C00ECBC76 /* GOPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E143CF618EAF87C00ECBC76 /* GOPlace.m */; };
+		8E143CFC18EAF87C00ECBC76 /* GOPlaceDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E143CF818EAF87C00ECBC76 /* GOPlaceDetails.m */; };
+		8E143CFD18EAF87C00ECBC76 /* GOPlacesAutocomplete.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E143CFA18EAF87C00ECBC76 /* GOPlacesAutocomplete.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E143CC318EAF82400ECBC76 /* GOPlacesAutocomplete iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GOPlacesAutocomplete iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E143CC618EAF82400ECBC76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E143CC818EAF82400ECBC76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E143CCA18EAF82400ECBC76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E143CCE18EAF82400ECBC76 /* GOPlacesAutocomplete iOS Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GOPlacesAutocomplete iOS Example-Info.plist"; sourceTree = "<group>"; };
+		8E143CD018EAF82400ECBC76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E143CD218EAF82400ECBC76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E143CD418EAF82400ECBC76 /* GOPlacesAutocomplete iOS Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GOPlacesAutocomplete iOS Example-Prefix.pch"; sourceTree = "<group>"; };
+		8E143CD518EAF82400ECBC76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E143CD618EAF82400ECBC76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E143CDF18EAF82400ECBC76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8E143CF518EAF87C00ECBC76 /* GOPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GOPlace.h; path = ../../../GOPlacesAutocomplete/GOPlace.h; sourceTree = "<group>"; };
+		8E143CF618EAF87C00ECBC76 /* GOPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GOPlace.m; path = ../../../GOPlacesAutocomplete/GOPlace.m; sourceTree = "<group>"; };
+		8E143CF718EAF87C00ECBC76 /* GOPlaceDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GOPlaceDetails.h; path = ../../../GOPlacesAutocomplete/GOPlaceDetails.h; sourceTree = "<group>"; };
+		8E143CF818EAF87C00ECBC76 /* GOPlaceDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GOPlaceDetails.m; path = ../../../GOPlacesAutocomplete/GOPlaceDetails.m; sourceTree = "<group>"; };
+		8E143CF918EAF87C00ECBC76 /* GOPlacesAutocomplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GOPlacesAutocomplete.h; path = ../../../GOPlacesAutocomplete/GOPlacesAutocomplete.h; sourceTree = "<group>"; };
+		8E143CFA18EAF87C00ECBC76 /* GOPlacesAutocomplete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GOPlacesAutocomplete.m; path = ../../../GOPlacesAutocomplete/GOPlacesAutocomplete.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E143CC018EAF82400ECBC76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E143CC918EAF82400ECBC76 /* CoreGraphics.framework in Frameworks */,
+				8E143CCB18EAF82400ECBC76 /* UIKit.framework in Frameworks */,
+				8E143CC718EAF82400ECBC76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E143CBA18EAF82400ECBC76 = {
+			isa = PBXGroup;
+			children = (
+				8E143CCC18EAF82400ECBC76 /* GOPlacesAutocomplete iOS Example */,
+				8E143CC518EAF82400ECBC76 /* Frameworks */,
+				8E143CC418EAF82400ECBC76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E143CC418EAF82400ECBC76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E143CC318EAF82400ECBC76 /* GOPlacesAutocomplete iOS Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E143CC518EAF82400ECBC76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E143CC618EAF82400ECBC76 /* Foundation.framework */,
+				8E143CC818EAF82400ECBC76 /* CoreGraphics.framework */,
+				8E143CCA18EAF82400ECBC76 /* UIKit.framework */,
+				8E143CDF18EAF82400ECBC76 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E143CCC18EAF82400ECBC76 /* GOPlacesAutocomplete iOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				8E143CD518EAF82400ECBC76 /* AppDelegate.h */,
+				8E143CD618EAF82400ECBC76 /* AppDelegate.m */,
+				8E143CF518EAF87C00ECBC76 /* GOPlace.h */,
+				8E143CF618EAF87C00ECBC76 /* GOPlace.m */,
+				8E143CF718EAF87C00ECBC76 /* GOPlaceDetails.h */,
+				8E143CF818EAF87C00ECBC76 /* GOPlaceDetails.m */,
+				8E143CF918EAF87C00ECBC76 /* GOPlacesAutocomplete.h */,
+				8E143CFA18EAF87C00ECBC76 /* GOPlacesAutocomplete.m */,
+				8E143CCD18EAF82400ECBC76 /* Supporting Files */,
+			);
+			path = "GOPlacesAutocomplete iOS Example";
+			sourceTree = "<group>";
+		};
+		8E143CCD18EAF82400ECBC76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E143CCE18EAF82400ECBC76 /* GOPlacesAutocomplete iOS Example-Info.plist */,
+				8E143CCF18EAF82400ECBC76 /* InfoPlist.strings */,
+				8E143CD218EAF82400ECBC76 /* main.m */,
+				8E143CD418EAF82400ECBC76 /* GOPlacesAutocomplete iOS Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E143CC218EAF82400ECBC76 /* GOPlacesAutocomplete iOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E143CEF18EAF82400ECBC76 /* Build configuration list for PBXNativeTarget "GOPlacesAutocomplete iOS Example" */;
+			buildPhases = (
+				8E143CBF18EAF82400ECBC76 /* Sources */,
+				8E143CC018EAF82400ECBC76 /* Frameworks */,
+				8E143CC118EAF82400ECBC76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GOPlacesAutocomplete iOS Example";
+			productName = "GOPlacesAutocomplete iOS Example";
+			productReference = 8E143CC318EAF82400ECBC76 /* GOPlacesAutocomplete iOS Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E143CBB18EAF82400ECBC76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Henri Normak";
+			};
+			buildConfigurationList = 8E143CBE18EAF82400ECBC76 /* Build configuration list for PBXProject "GOPlacesAutocomplete iOS Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E143CBA18EAF82400ECBC76;
+			productRefGroup = 8E143CC418EAF82400ECBC76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E143CC218EAF82400ECBC76 /* GOPlacesAutocomplete iOS Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E143CC118EAF82400ECBC76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E143CD118EAF82400ECBC76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E143CBF18EAF82400ECBC76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E143CFD18EAF87C00ECBC76 /* GOPlacesAutocomplete.m in Sources */,
+				8E143CFC18EAF87C00ECBC76 /* GOPlaceDetails.m in Sources */,
+				8E143CD718EAF82400ECBC76 /* AppDelegate.m in Sources */,
+				8E143CD318EAF82400ECBC76 /* main.m in Sources */,
+				8E143CFB18EAF87C00ECBC76 /* GOPlace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E143CCF18EAF82400ECBC76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E143CD018EAF82400ECBC76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E143CED18EAF82400ECBC76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E143CEE18EAF82400ECBC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E143CF018EAF82400ECBC76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GOPlacesAutocomplete iOS Example/GOPlacesAutocomplete iOS Example-Prefix.pch";
+				INFOPLIST_FILE = "GOPlacesAutocomplete iOS Example/GOPlacesAutocomplete iOS Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E143CF118EAF82400ECBC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GOPlacesAutocomplete iOS Example/GOPlacesAutocomplete iOS Example-Prefix.pch";
+				INFOPLIST_FILE = "GOPlacesAutocomplete iOS Example/GOPlacesAutocomplete iOS Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E143CBE18EAF82400ECBC76 /* Build configuration list for PBXProject "GOPlacesAutocomplete iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E143CED18EAF82400ECBC76 /* Debug */,
+				8E143CEE18EAF82400ECBC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E143CEF18EAF82400ECBC76 /* Build configuration list for PBXNativeTarget "GOPlacesAutocomplete iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E143CF018EAF82400ECBC76 /* Debug */,
+				8E143CF118EAF82400ECBC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E143CBB18EAF82400ECBC76 /* Project object */;
+}
