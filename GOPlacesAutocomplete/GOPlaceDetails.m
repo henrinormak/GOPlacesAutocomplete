@@ -28,7 +28,7 @@
 #pragma mark -
 #pragma mark Constants
 
-NSString *const GOPlaceDetailsErrorDomain = @"GOTimeZoneError";
+NSString *const GOPlaceDetailsErrorDomain = @"GOPlaceDetailsError";
 
 NSString *const GOPlaceDetailsResponseStatus = @"status";
 NSString *const GOPlaceDetailsResponseErrorMessage = @"error_message";
