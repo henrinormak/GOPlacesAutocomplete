@@ -178,7 +178,7 @@ static NSString *GOPlacesAutocompleteDefaultAPIKey = @"";
         long long length = [response expectedContentLength];
         if (length != NSURLResponseUnknownLength) {
             [self.progress setTotalUnitCount:length];
-            self.data = [NSMutableData dataWithLength:(NSUInteger)length];
+            self.data = [NSMutableData dataWithCapacity:(NSUInteger)length];
         } else {
             // No concrete length, just give an arbitrary estimate (which we'll grow with every chunk of new data we get)
             [self.progress setTotalUnitCount:1];
