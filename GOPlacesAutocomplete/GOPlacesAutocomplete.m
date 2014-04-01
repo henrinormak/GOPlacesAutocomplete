@@ -175,10 +175,10 @@ static NSString *GOPlacesAutocompleteDefaultAPIKey = @"";
     NSHTTPURLResponse *HTTPResponse = (NSHTTPURLResponse *)response;
     
     if ([HTTPResponse statusCode] == 200) {
-        NSUInteger length = (NSUInteger)[response expectedContentLength];
+        long long length = [response expectedContentLength];
         if (length != NSURLResponseUnknownLength) {
             [self.progress setTotalUnitCount:length];
-            self.data = [NSMutableData dataWithCapacity:length];
+            self.data = [NSMutableData dataWithLength:(NSUInteger)length];
         } else {
             // No concrete length, just give an arbitrary estimate (which we'll grow with every chunk of new data we get)
             [self.progress setTotalUnitCount:1];
@@ -190,7 +190,7 @@ static NSString *GOPlacesAutocompleteDefaultAPIKey = @"";
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
     [self.data appendData:data];
-    NSUInteger units = self.progress.completedUnitCount + [data length];
+    long long units = self.progress.completedUnitCount + [data length];
     
     // Make sure the progress is not "completed" prematurely due to some miscalculation
     // in the expected length
