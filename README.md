@@ -36,7 +36,7 @@ None of the APIs `GOPlacesAutocomplete` wraps allows anonymous requests, thus a 
 [GOPlacesAutocomplete setDefaultGoogleAPIKey:key];
 
 // Per instance
-GOPlaceDetails *details = ...
+GOPlaceDetails *details = ...;
 [details setGoogleAPIKey:key];
 
 GOPlacesAutocomplete *autocomplete = ...;
@@ -54,9 +54,10 @@ The network traffic is mostly minimal (i.e usually the data arrives in a single 
 ## Installation
 
 Simply add the files in the `GOPlacesAutocomplete` folder to your project:
-GOPlace.{h,m})
-GOPlaceDetails.{h,m}
-GOPlacesAutocomplete.{h,m}
+
+* GOPlace.{h,m})
+* GOPlaceDetails.{h,m}
+* GOPlacesAutocomplete.{h,m}
 
 `GOPlacesAutocomplete` works on both OS X and iOS, with minimal differences (`CLRegion` vs `CLCircularRegion` being the most obvious when it comes to `GOPlacesAutocomplete`). The wrapper requires OS X 10.9 and iOS 7 respectively.
 
