@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E143D0B18EAFCC700ECBC76 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E143D0A18EAFCC700ECBC76 /* Cocoa.framework */; };
+		8E143D1518EAFCC700ECBC76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E143D1318EAFCC700ECBC76 /* InfoPlist.strings */; };
+		8E143D1718EAFCC700ECBC76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E143D1618EAFCC700ECBC76 /* main.m */; };
+		8E143D1B18EAFCC700ECBC76 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8E143D1918EAFCC700ECBC76 /* Credits.rtf */; };
+		8E143D1E18EAFCC700ECBC76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E143D1D18EAFCC700ECBC76 /* AppDelegate.m */; };
+		8E143D2118EAFCC800ECBC76 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E143D1F18EAFCC800ECBC76 /* MainMenu.xib */; };
+		8E143D4418EAFCE000ECBC76 /* GOPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E143D3F18EAFCE000ECBC76 /* GOPlace.m */; };
+		8E143D4518EAFCE000ECBC76 /* GOPlaceDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E143D4118EAFCE000ECBC76 /* GOPlaceDetails.m */; };
+		8E143D4618EAFCE000ECBC76 /* GOPlacesAutocomplete.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E143D4318EAFCE000ECBC76 /* GOPlacesAutocomplete.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E143D0718EAFCC700ECBC76 /* GOPlacesAutocomplete OS X Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GOPlacesAutocomplete OS X Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E143D0A18EAFCC700ECBC76 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8E143D0D18EAFCC700ECBC76 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8E143D0E18EAFCC700ECBC76 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8E143D0F18EAFCC700ECBC76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E143D1218EAFCC700ECBC76 /* GOPlacesAutocomplete OS X Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GOPlacesAutocomplete OS X Example-Info.plist"; sourceTree = "<group>"; };
+		8E143D1418EAFCC700ECBC76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E143D1618EAFCC700ECBC76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E143D1818EAFCC700ECBC76 /* GOPlacesAutocomplete OS X Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GOPlacesAutocomplete OS X Example-Prefix.pch"; sourceTree = "<group>"; };
+		8E143D1A18EAFCC700ECBC76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8E143D1C18EAFCC700ECBC76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E143D1D18EAFCC700ECBC76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E143D2018EAFCC800ECBC76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8E143D2918EAFCC800ECBC76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8E143D3E18EAFCE000ECBC76 /* GOPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GOPlace.h; path = ../../../GOPlacesAutocomplete/GOPlace.h; sourceTree = "<group>"; };
+		8E143D3F18EAFCE000ECBC76 /* GOPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GOPlace.m; path = ../../../GOPlacesAutocomplete/GOPlace.m; sourceTree = "<group>"; };
+		8E143D4018EAFCE000ECBC76 /* GOPlaceDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GOPlaceDetails.h; path = ../../../GOPlacesAutocomplete/GOPlaceDetails.h; sourceTree = "<group>"; };
+		8E143D4118EAFCE000ECBC76 /* GOPlaceDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GOPlaceDetails.m; path = ../../../GOPlacesAutocomplete/GOPlaceDetails.m; sourceTree = "<group>"; };
+		8E143D4218EAFCE000ECBC76 /* GOPlacesAutocomplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GOPlacesAutocomplete.h; path = ../../../GOPlacesAutocomplete/GOPlacesAutocomplete.h; sourceTree = "<group>"; };
+		8E143D4318EAFCE000ECBC76 /* GOPlacesAutocomplete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GOPlacesAutocomplete.m; path = ../../../GOPlacesAutocomplete/GOPlacesAutocomplete.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E143D0418EAFCC700ECBC76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E143D0B18EAFCC700ECBC76 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E143CFE18EAFCC700ECBC76 = {
+			isa = PBXGroup;
+			children = (
+				8E143D1018EAFCC700ECBC76 /* GOPlacesAutocomplete OS X Example */,
+				8E143D0918EAFCC700ECBC76 /* Frameworks */,
+				8E143D0818EAFCC700ECBC76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E143D0818EAFCC700ECBC76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E143D0718EAFCC700ECBC76 /* GOPlacesAutocomplete OS X Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E143D0918EAFCC700ECBC76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E143D0A18EAFCC700ECBC76 /* Cocoa.framework */,
+				8E143D2918EAFCC800ECBC76 /* XCTest.framework */,
+				8E143D0C18EAFCC700ECBC76 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E143D0C18EAFCC700ECBC76 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E143D0D18EAFCC700ECBC76 /* AppKit.framework */,
+				8E143D0E18EAFCC700ECBC76 /* CoreData.framework */,
+				8E143D0F18EAFCC700ECBC76 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8E143D1018EAFCC700ECBC76 /* GOPlacesAutocomplete OS X Example */ = {
+			isa = PBXGroup;
+			children = (
+				8E143D1C18EAFCC700ECBC76 /* AppDelegate.h */,
+				8E143D1D18EAFCC700ECBC76 /* AppDelegate.m */,
+				8E143D1F18EAFCC800ECBC76 /* MainMenu.xib */,
+				8E143D3E18EAFCE000ECBC76 /* GOPlace.h */,
+				8E143D3F18EAFCE000ECBC76 /* GOPlace.m */,
+				8E143D4018EAFCE000ECBC76 /* GOPlaceDetails.h */,
+				8E143D4118EAFCE000ECBC76 /* GOPlaceDetails.m */,
+				8E143D4218EAFCE000ECBC76 /* GOPlacesAutocomplete.h */,
+				8E143D4318EAFCE000ECBC76 /* GOPlacesAutocomplete.m */,
+				8E143D1118EAFCC700ECBC76 /* Supporting Files */,
+			);
+			path = "GOPlacesAutocomplete OS X Example";
+			sourceTree = "<group>";
+		};
+		8E143D1118EAFCC700ECBC76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E143D1218EAFCC700ECBC76 /* GOPlacesAutocomplete OS X Example-Info.plist */,
+				8E143D1318EAFCC700ECBC76 /* InfoPlist.strings */,
+				8E143D1618EAFCC700ECBC76 /* main.m */,
+				8E143D1818EAFCC700ECBC76 /* GOPlacesAutocomplete OS X Example-Prefix.pch */,
+				8E143D1918EAFCC700ECBC76 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E143D0618EAFCC700ECBC76 /* GOPlacesAutocomplete OS X Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E143D3818EAFCC800ECBC76 /* Build configuration list for PBXNativeTarget "GOPlacesAutocomplete OS X Example" */;
+			buildPhases = (
+				8E143D0318EAFCC700ECBC76 /* Sources */,
+				8E143D0418EAFCC700ECBC76 /* Frameworks */,
+				8E143D0518EAFCC700ECBC76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GOPlacesAutocomplete OS X Example";
+			productName = "GOPlacesAutocomplete OS X Example";
+			productReference = 8E143D0718EAFCC700ECBC76 /* GOPlacesAutocomplete OS X Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E143CFF18EAFCC700ECBC76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Henri Normak";
+			};
+			buildConfigurationList = 8E143D0218EAFCC700ECBC76 /* Build configuration list for PBXProject "GOPlacesAutocomplete OS X Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E143CFE18EAFCC700ECBC76;
+			productRefGroup = 8E143D0818EAFCC700ECBC76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E143D0618EAFCC700ECBC76 /* GOPlacesAutocomplete OS X Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E143D0518EAFCC700ECBC76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E143D1518EAFCC700ECBC76 /* InfoPlist.strings in Resources */,
+				8E143D1B18EAFCC700ECBC76 /* Credits.rtf in Resources */,
+				8E143D2118EAFCC800ECBC76 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E143D0318EAFCC700ECBC76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E143D4618EAFCE000ECBC76 /* GOPlacesAutocomplete.m in Sources */,
+				8E143D4518EAFCE000ECBC76 /* GOPlaceDetails.m in Sources */,
+				8E143D1E18EAFCC700ECBC76 /* AppDelegate.m in Sources */,
+				8E143D1718EAFCC700ECBC76 /* main.m in Sources */,
+				8E143D4418EAFCE000ECBC76 /* GOPlace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E143D1318EAFCC700ECBC76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E143D1418EAFCC700ECBC76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E143D1918EAFCC700ECBC76 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E143D1A18EAFCC700ECBC76 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8E143D1F18EAFCC800ECBC76 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E143D2018EAFCC800ECBC76 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E143D3618EAFCC800ECBC76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8E143D3718EAFCC800ECBC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8E143D3918EAFCC800ECBC76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GOPlacesAutocomplete OS X Example/GOPlacesAutocomplete OS X Example-Prefix.pch";
+				INFOPLIST_FILE = "GOPlacesAutocomplete OS X Example/GOPlacesAutocomplete OS X Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E143D3A18EAFCC800ECBC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GOPlacesAutocomplete OS X Example/GOPlacesAutocomplete OS X Example-Prefix.pch";
+				INFOPLIST_FILE = "GOPlacesAutocomplete OS X Example/GOPlacesAutocomplete OS X Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E143D0218EAFCC700ECBC76 /* Build configuration list for PBXProject "GOPlacesAutocomplete OS X Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E143D3618EAFCC800ECBC76 /* Debug */,
+				8E143D3718EAFCC800ECBC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E143D3818EAFCC800ECBC76 /* Build configuration list for PBXNativeTarget "GOPlacesAutocomplete OS X Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E143D3918EAFCC800ECBC76 /* Debug */,
+				8E143D3A18EAFCC800ECBC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E143CFF18EAFCC700ECBC76 /* Project object */;
+}
