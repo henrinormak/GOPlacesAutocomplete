@@ -50,7 +50,7 @@ NS_CLASS_AVAILABLE(10_9, 7_0)
 // Region to bias results to, use CLLocationDistanceMax to ignore the radius parameter
 // Information on location biasing
 // https://developers.google.com/places/documentation/autocomplete#location_biasing
-@property (nonatomic, copy) CLRegion *region;
+@property (nonatomic, copy) CLCircularRegion *region;
 
 /**
  *  Change the default API key to be used by any future requests

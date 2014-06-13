@@ -114,7 +114,7 @@ static NSString *GOPlacesAutocompleteDefaultAPIKey = @"";
     self.progress.pausable = NO;
     
     // Observe progress state
-    [self.progress addObserver:self forKeyPath:NSStringFromSelector(@selector(isCancelled)) options:0 context:GOPlacesAutocompleteContext];
+    [self.progress addObserver:self forKeyPath:@"cancelled" options:0 context:GOPlacesAutocompleteContext];
     
     // Start the connection
     [self.connection start];
@@ -147,7 +147,7 @@ static NSString *GOPlacesAutocompleteDefaultAPIKey = @"";
         
         // Make sure the progress reporting is complete
         [self.progress setCompletedUnitCount:self.progress.totalUnitCount];
-        [self.progress removeObserver:self forKeyPath:NSStringFromSelector(@selector(isCancelled)) context:GOPlacesAutocompleteContext];
+        [self.progress removeObserver:self forKeyPath:@"cancelled" context:GOPlacesAutocompleteContext];
         self.progress = nil;
     });
 }
@@ -259,7 +259,7 @@ static NSString *GOPlacesAutocompleteDefaultAPIKey = @"";
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
     if (context == GOPlacesAutocompleteContext) {
-        if ([keyPath isEqualToString:NSStringFromSelector(@selector(isCancelled))]) {
+        if ([keyPath isEqualToString:@"cancelled"]) {
             if ([object isCancelled])
                 [self cancelRequest];   // Cancel the request
         }
